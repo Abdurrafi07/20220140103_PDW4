@@ -128,47 +128,74 @@ body {
     background-image: url('/assets/Backg2.jpg'); /* URL gambar */
     /* Mode pencampuran latar belakang */
     background-blend-mode: overlay;
-    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh area */
-    background-position: center; /* Posisi gambar di tengah */
-    padding: 20px; /* Padding */
-    border-radius: 10px; /* Radius sudut */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-    background-color: rgba(255, 255, 255, 0.8); /* Warna coklat muda dengan kontras */
+    /* Mengatur ukuran gambar agar menutupi seluruh area */
+    background-size: cover; 
+    /* Posisi gambar di tengah */
+    background-position: center;
+    /* Padding */
+    padding: 20px; 
+    /* Radius sudut */
+    border-radius: 10px; 
+    /* Efek bayangan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* Warna kontras */
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 .Login-Form h2 {
-    margin-bottom: 20px; /* Ruang bawah untuk judul */
-    font-family: Arial, sans-serif; /* Jenis huruf */
-    color: #000000; /* Warna teks */
+    /* Ruang bawah untuk judul */
+    margin-bottom: 20px; 
+    /* Jenis huruf */
+    font-family: Arial, sans-serif;
+    /* Warna teks */
+    color: #000000; 
 }
 
 .Login-Form label {
-    display: block; /* Menjadikan label sebagai blok */
-    margin-bottom: 5px; /* Ruang bawah untuk setiap label */
-    font-family: Arial, sans-serif; /* Jenis huruf */
-    color: #000000; /* Warna teks */
+    /* Menjadikan label sebagai blok */
+    display: block; 
+    /* Ruang bawah untuk setiap label */
+    margin-bottom: 5px; 
+    /* Jenis huruf */
+    font-family: Arial, sans-serif; 
+    /* Warna teks */
+    color: #000000; 
 }
 
 .Login-Form input {
-    width: 100%; /* Lebar input 100% */
-    padding: 10px; /* Padding */
-    margin-bottom: 15px; /* Ruang bawah untuk setiap input */
-    border: 1px solid #ccc; /* Border */
-    border-radius: 5px; /* Radius sudut */
+    /* Lebar input 100% */
+    width: 100%; 
+    /* Padding */
+    padding: 10px; 
+    /* Ruang bawah untuk setiap input */
+    margin-bottom: 15px; 
+    /* Border */
+    border: 1px solid #ccc; 
+    /* Radius sudut */
+    border-radius: 5px;
 }
 
 .Login-Form button {
-    width: 100%; /* Lebar button 100% */
-    padding: 10px; /* Padding */
-    background-color: #513400; /* Warna latar belakang */
-    color: #fff; /* Warna teks */
-    border: none; /* Menghilangkan border */
-    border-radius: 5px; /* Radius sudut */
-    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
-    transition: background-color 0.3s ease; /* Efek transisi perubahan warna saat hover */
+    /* Lebar button 100% */
+    width: 100%; 
+    /* Padding */
+    padding: 10px;
+    /* Warna latar belakang */ 
+    background-color: #513400; 
+    /* Warna teks */
+    color: #fff; 
+    /* Menghilangkan border */
+    border: none; 
+    /* Radius sudut */
+    border-radius: 5px; 
+    /* Mengubah kursor menjadi pointer saat dihover */
+    cursor: pointer; 
+    /* Efek transisi perubahan warna saat hover */
+    transition: background-color 0.3s ease; 
 }
 
 .Login-Form button:hover {
-    background-color: #0056b3; /* Warna latar belakang saat hover */
+    /* Warna latar belakang saat hover */
+    background-color: #0056b3; 
 }
 
