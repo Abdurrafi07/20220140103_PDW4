@@ -1,0 +1,174 @@
+/* Set margin, padding, dan box-sizing menjadi 0 untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk elemen body */
+body {
+     /* Menampilkan isi secara fleksibel dan memusatkan vertikal dan horizontal */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* Warna latar belakang dengan nilai RGBA */
+    background-color: rgba(207, 188, 176, 0.871); 
+    /* Menambahkan gambar latar belakang */
+    background-image: url('../assets/Backg.jpg');
+    /* Mode pencampuran latar belakang */
+    background-blend-mode: overlay;
+    /* Menyesuaikan ukuran gambar latar belakang */
+    background-size: cover;
+    /* Posisi gambar latar belakang */
+    background-position: center;
+}
+
+/* Gaya untuk container flex */
+.container {
+    display: flex;
+}
+
+/* Gaya untuk elemen dengan kelas 'card' */
+.card {
+    /* Penataan posisi relatif */
+    position: relative;
+    /* Lebar elemen */
+    width: 50%; /* Mengatur agar .card menempati setengah dari lebar container */
+    /* Mengatur radius sudut */
+    border-radius: 20px;
+    /* Memotong konten yang meluap */
+    overflow: hidden;
+    /* Efek bayangan pada elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Menampilkan elemen secara fleksibel dalam arah kolom */
+    display: flex;
+    flex-direction: column;
+    /* Memberi jarak antara card dan cardlog */
+    margin-right: 10px; /* Tambahkan margin-right */
+}
+
+/* Gaya untuk elemen dengan kelas 'cardlog' */
+.cardlog {
+    /* Penataan posisi relatif */
+    position: relative;
+    /* Lebar elemen */
+    width: 50%; /* Mengatur agar .cardlog menempati setengah dari lebar container */
+    /* Mengatur radius sudut */
+    border-radius: 20px;
+    /* Memotong konten yang meluap */
+    overflow: hidden;
+    /* Efek bayangan pada elemen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Menampilkan elemen secara fleksibel dalam arah kolom */
+    display: flex;
+    flex-direction: column;
+    /* Memberi jarak antara card dan cardlog */
+    margin-left: 10px; /* Tambahkan margin-left */
+}
+
+
+
+/* Gaya untuk gambar di dalam elemen dengan kelas 'card' */
+.card img {
+    /* Menyesuaikan lebar gambar */
+    width: 100%;
+    /* Mengatur tinggi gambar sesuai proporsi */
+    height: auto;
+    /* Mengatur bagaimana gambar di dalam elemen */
+    object-fit: contain;
+    /* Mengatur radius sudut */
+    border-radius: 20px;
+}
+
+/* Gaya untuk teks di dalam elemen dengan kelas 'text' */
+.text {
+    /* Penataan posisi absolut */
+    position: absolute;
+    /* Menempatkan teks di bagian bawah elemen */
+    bottom: 0;
+    left: 0;
+    /* Mengatur lebar elemen */
+    width: 100%;
+    /* Warna latar belakang dengan nilai RGBA */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Menambahkan padding */
+    padding: 20px;
+    /* Padding termasuk dalam hitungan lebar keseluruhan */
+    box-sizing: border-box;
+}
+
+/* Gaya untuk judul di dalam elemen dengan kelas 'text' */
+.text h1 {
+    /* Menambahkan ruang bawah untuk judul */
+    margin-bottom: 10px;
+    /* Jenis huruf, ukuran, dan warna teks */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Gaya untuk paragraf di dalam elemen dengan kelas 'text' */
+.text p {
+    /* Menghilangkan margin bawah untuk paragraf */
+    margin-bottom: 0;
+    /* Jenis huruf, ukuran, warna, dan jarak baris */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #0f0f0f;
+    line-height: 1.6;
+}
+
+#Waktu {
+    margin-bottom: 10px; /* Menambahkan jarak bawah */
+}
+
+/* Gaya untuk form login */
+.Login-Form {
+    background-image: url('/assets/Backg2.jpg'); /* URL gambar */
+    /* Mode pencampuran latar belakang */
+    background-blend-mode: overlay;
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh area */
+    background-position: center; /* Posisi gambar di tengah */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Radius sudut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    background-color: rgba(255, 255, 255, 0.8); /* Warna coklat muda dengan kontras */
+}
+
+.Login-Form h2 {
+    margin-bottom: 20px; /* Ruang bawah untuk judul */
+    font-family: Arial, sans-serif; /* Jenis huruf */
+    color: #000000; /* Warna teks */
+}
+
+.Login-Form label {
+    display: block; /* Menjadikan label sebagai blok */
+    margin-bottom: 5px; /* Ruang bawah untuk setiap label */
+    font-family: Arial, sans-serif; /* Jenis huruf */
+    color: #000000; /* Warna teks */
+}
+
+.Login-Form input {
+    width: 100%; /* Lebar input 100% */
+    padding: 10px; /* Padding */
+    margin-bottom: 15px; /* Ruang bawah untuk setiap input */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Radius sudut */
+}
+
+.Login-Form button {
+    width: 100%; /* Lebar button 100% */
+    padding: 10px; /* Padding */
+    background-color: #513400; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Radius sudut */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+    transition: background-color 0.3s ease; /* Efek transisi perubahan warna saat hover */
+}
+
+.Login-Form button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
